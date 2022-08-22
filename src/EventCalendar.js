@@ -114,6 +114,7 @@ export default class EventCalendar extends React.Component {
               </TouchableOpacity>
               <View style={this.styles.headerTextContainer} >
                 <Text style={this.styles.headerText}>{headerText}</Text>
+                {/* Removed calendar Icon*/}
                 {/* <TouchableOpacity
                   style={this.styles.arrowButton}
                   onPress={this.props.onCalendarPressed}
